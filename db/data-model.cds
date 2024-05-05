@@ -60,7 +60,7 @@ entity Products {
       Depth         : Integer;
       Height        : Integer;
       DimUnit       : String(5);
-      suppliers     : Association to many Suppliers;
+      suppliers     : Association to Suppliers;
 }
 
 entity Suppliers {
